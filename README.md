@@ -73,7 +73,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Author
 
-Created by [Your Name]
+Created by Soyeb 
 
 ## Support
 
