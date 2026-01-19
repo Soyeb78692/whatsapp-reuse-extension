@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "WhatsApp Reuse Tab",
+  "name": "WhatsApp Web Quick Chat & Tab Reuser",
   "version": "1.0.0",
-  "description": "Open or reuse an existing WhatsApp Web tab and open chat in it.",
+  "description": "Open WhatsApp Web chats without saving contacts and reuse an existing tab to avoid duplicates.",
   "author": "Soyeb78692",
   "permissions": ["tabs", "storage"],
   "host_permissions": ["https://web.whatsapp.com/*"],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "WhatsApp Reuse Tab"
+    "default_title": "WhatsApp Web Quick Chat"
   }
 }

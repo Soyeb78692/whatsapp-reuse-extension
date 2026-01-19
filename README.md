@@ -1,13 +1,15 @@
-# WhatsApp Reuse Tab Extension
+# WhatsApp Web Quick Chat (Reuse Existing Tab)
 
-A Chrome/Edge browser extension that allows you to quickly open WhatsApp Web chats by reusing existing tabs or creating new ones.
+Open WhatsApp Web chats without saving contacts, reuse an existing tab (no duplicates), and jump straight into conversations. Works on Chrome, Edge, and other Chromium browsers.
 
 ## Features
 
-- 🔄 **Reuses existing WhatsApp Web tabs** - No need to open multiple tabs
-- 📱 **Quick phone number input** - Enter a phone number and open chat instantly
-- 🌍 **International support** - Supports phone numbers with country codes
-- ⚡ **Fast and lightweight** - Simple popup interface
+- 🔄 **Reuse existing WhatsApp Web tab** — keeps one tab instead of many duplicates
+- ⚡ **Open chat instantly** — type a number, hit Enter, you’re in
+- 🌍 **International support** — validates `+<country><number>` (10–15 digits)
+- ✅ **No contact saving needed** — message without adding to your phone
+- 🧭 **Friendly UX** — loading states, status messages, keyboard Enter support
+- 🔒 **Permissions minimized** — only `tabs`, `storage`, and `web.whatsapp.com`
 
 ## Installation
 
@@ -39,6 +41,12 @@ A Chrome/Edge browser extension that allows you to quickly open WhatsApp Web cha
 4. The extension will:
    - Reuse an existing WhatsApp Web tab if one is open
    - Create a new tab if no WhatsApp Web tab exists
+
+## Why this is SEO-friendly
+
+- Keywords: “WhatsApp Web”, “open chat without saving contact”, “reuse tab”, “Chrome extension”
+- Single-tab reuse avoids clutter and improves user flow
+- Clear instructions and validated phone input for fewer errors
 
 ## Permissions
 
