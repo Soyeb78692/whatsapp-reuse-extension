@@ -15,7 +15,7 @@ A Chrome/Edge browser extension that allows you to quickly open WhatsApp Web cha
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/whatsapp-reuse-extension.git
+   git clone https://github.com/Soyeb78692/whatsapp-reuse-extension.git
    cd whatsapp-reuse-extension
    ```
 
