@@ -1,13 +1,36 @@
 {
   "manifest_version": 3,
-  "name": "WhatsApp Web Quick Chat & Tab Reuser",
-  "version": "1.0.0",
-  "description": "Open WhatsApp Web chats without saving contacts and reuse an existing tab to avoid duplicates.",
+  "name": "WhatsApp Quick Chat+",
+  "version": "1.2.0",
+  "description": "Open chats without saving contacts, with tab reuse and quick message prefill.",
   "author": "Soyeb78692",
-  "permissions": ["tabs", "storage"],
+  "permissions": ["tabs", "storage", "contextMenus"],
   "host_permissions": ["https://web.whatsapp.com/*"],
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "open-whatsapp-quick-chat": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Open WhatsApp Quick Chat target"
+    }
+  },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "WhatsApp Web Quick Chat"
+    "default_title": "WhatsApp Quick Chat+",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+    }
   }
 }
